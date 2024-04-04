@@ -7,23 +7,23 @@ interface Project {
 
 const portfolio: Project[] = [
     {
-        title: 'Terminal Website',
-        imgUrl: "",
-        stack: ['HTML', 'CSS', 'JavaScript'],
-        link: 'https://google.com'
-    },
-    {
-        title: 'Developer Portfolio',
-        imgUrl: "",
-        stack: ['React', 'TailwindCSS', 'TypeScript'],
-        link: 'https://google.com'
-    },
-    {
         title: 'Unity Game',
-        imgUrl: "",
-        stack: ['Unity', 'C#', 'Github'],
-        link: 'https://google.com'
-    }
+        imgUrl: "src/assets/2024-04-04.png",
+        stack: ['C#', 'Github', 'Animation'],
+        link: 'https://github.com/victorgloria/Final-Project'
+    },
+    {
+        title: 'API RESTful APP',
+        imgUrl: "src/assets/2024-04-04 (2).png",
+        stack: ['PHP', 'HTML', 'SQLite'],
+        link: 'https://github.com/victorgloria/API-Project'
+    },
+    {
+        title: 'About Me Website',
+        imgUrl: "src/assets/2024-04-04 (1).png",
+        stack: ['Javascript', 'CSS', 'HTML'],
+        link: 'https://github.com/victorgloria/Web-Technologies-project'
+    },
 ];
 
 export default portfolio;
