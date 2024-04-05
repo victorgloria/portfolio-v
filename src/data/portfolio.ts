@@ -8,19 +8,19 @@ interface Project {
 const portfolio: Project[] = [
     {
         title: 'Unity Game',
-        imgUrl: "src/assets/2024-04-04.png",
+        imgUrl: "public/2024-04-04.png",
         stack: ['C#', 'Github', 'Animation'],
         link: 'https://github.com/victorgloria/Final-Project'
     },
     {
         title: 'API RESTful APP',
-        imgUrl: "src/assets/2024-04-04 (2).png",
+        imgUrl: "public/2024-04-04 (2).png",
         stack: ['PHP', 'HTML', 'SQLite'],
         link: 'https://github.com/victorgloria/API-Project'
     },
     {
         title: 'About Me Website',
-        imgUrl: "src/assets/2024-04-04 (1).png",
+        imgUrl: "public/2024-04-04 (1).png",
         stack: ['Javascript', 'CSS', 'HTML'],
         link: 'https://github.com/victorgloria/Web-Technologies-project'
     },

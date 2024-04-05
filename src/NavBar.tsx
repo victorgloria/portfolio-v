@@ -12,7 +12,9 @@ const Navbar: React.FC = () => {
                 </a>
             </li>
             <li>
-                <FaLinkedin className='text-3xl'/>
+                <a href='https://www.linkedin.com/in/victor-gloria-94b88a274/'>
+                    <FaLinkedin className='text-3xl'/>
+                </a>
             </li>
             </ul>
         </div>
