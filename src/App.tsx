@@ -7,7 +7,7 @@ import Navbar from "./NavBar";
 
 function App() {
   return (
-    <div className="App bg-slate-500">
+    <div className="App bg-cream">
       <Navbar/>
       <Intro />
       <Portfolio />
