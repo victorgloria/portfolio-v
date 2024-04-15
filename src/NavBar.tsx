@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
     }, []);
 
     return (
-        <nav className={`w-full bg-gray-800 text-white py-2 bg-opacity-95 ${isFixed ? 'fixed top-0 z-10' : ''}`}>
+        <nav className={`w-full bg-darkblue text-white py-2 bg-opacity-95 ${isFixed ? 'fixed top-0 z-10' : ''}`}>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 py-2">
             <ul className="flex space-x-4">
             <li>
