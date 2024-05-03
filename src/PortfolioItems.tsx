@@ -15,7 +15,7 @@ const PortfolioItems: React.FC<PortfolioItemsProps> = ({
 }) => {
   return (
     <>
-      <div className="border-2 border-stone-900 rounded-md overflow-hidden">
+      <div className="border-2 shadow-md rounded-md overflow-hidden">
         <img
           src={imgUrl}
           alt="portfolio"
@@ -28,7 +28,7 @@ const PortfolioItems: React.FC<PortfolioItemsProps> = ({
           <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
             {stack.map((item, index) => (
               <span
-                className="inline-block px-2 py-1 font-semibold border-2 border-stone-900 rounded-md"
+                className="inline-block px-2 py-1 font-semibold bg-darkblue shadow-md rounded-md text-white"
                 key={index}
               >
                 {item}
